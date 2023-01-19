@@ -8,6 +8,7 @@ const SendData = (props) =>{
         event.preventDefault();
         axios.delete(`http://localhost:5244/api/player/${apiData.userid}`);
     }
+    // this file is for deleting the player from the database
 
     const handleChange = (event) =>{
         const {name,value} = event.target
